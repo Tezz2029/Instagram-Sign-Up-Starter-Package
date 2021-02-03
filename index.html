@@ -5,6 +5,8 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Instagram</title>
     <script src="https://kit.fontawesome.com/52b069375b.js" crossorigin="anonymous"></script>
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:ital@1&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="style.css">
 </head>
 
@@ -12,21 +14,76 @@
     
     <section>
 
+        <!-- MAIN CONTAINER WHICH HOLDS IMAGE AND LOGIN -->
         <div class="main-container">
 
+            <!-- HOLDS INSTA BRAND IMAGE -->
             <div class="left-img-container">
-                <img src="img/insta-signup-page.png" alt="Instagram Brand Logo">
+                <img class="insta-brand-logo" src="img/insta-signup-page.png" alt="Instagram Brand Logo">
             </div>
 
+            <!-- HOLDS LOGIN AND SIGNUP -->
             <div class="right-form-container">
 
-                
+                <!-- HOLDS LOGIN -->
+                <div class="login-container">
+
+                    <div class="insta-text-logo">
+                        <img class="text-logo" src="img/text-logo.png" alt="Instagram Text Logo">
+                    </div>
+
+                    <div class="input-container">
+
+                        <input class="username-input" type="text" placeholder="Phone number, username or email">
+                        <input class="password-input" type="password" placeholder="Password">
+
+                    </div>
+
+                    <button class="login-btn">Log In</button>
+
+                    <div class="or-container">
+
+                        <div class="border-container">
+                            <hr>
+                        </div>
+                        <div class="or-text-container">
+                            <p>or</p>
+                        </div>
+                        <div class="border-container">
+                            <hr>
+                        </div>
+
+                    </div>
+
+                    <div class="fb-login">
+
+                        <i class="fab fa-facebook-square"></i>
+                        <a href="www.facebook.com" class="fb-text">Log in with Facebook</a>
+
+                    </div>
+
+                    <div class="forgot-pass-container">
+
+                        <a href="www.facebook.com" class="forgot-password">Forgot password?</a>
+
+                    </div>
+
+                </div>
+
+                <!-- HOLDS SIGNUP -->
+                <div class="signup-container">
+
+                    <p>Don't have an account <a href="www.facebook.com">Sign Up</a></p>
+
+                </div>
 
             </div>
 
         </div>
 
     </section>
+
+    
 
 </body>
 </html>
